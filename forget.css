@@ -1,0 +1,66 @@
+#forget_password{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sp1{
+    height: 280PX;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    border-radius: 15px;
+    background-color: rgb(233, 238, 239);
+}
+#email-forget
+{
+    font-size: 17px;
+    padding: 0px;
+    margin:10px;
+    margin-left: 25px;
+}
+#email_holder-forget
+{
+    padding: 10px;
+    margin:10px;
+    margin-left: 25px;
+}
+
+input[type="email"] {
+    width: 300px;
+    height: 40px; 
+    padding: 5px; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    font-size: 16px; }
+#btn-forget{
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    margin:10px;
+    margin-left: 24.5px;
+    border-radius: 10px;
+    background-color: rgb(73, 141, 249);
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+h2{
+    margin-left: 80px;
+}
+p{
+    margin-left: 50px;
+}
+p a{
+    text-decoration-line: none;
+    color: rgb(73, 141, 249);
+}
+input::placeholder {
+    font-size: 13px;
+  }
+
+  #email_holder-forget:focus{
+    border: none;
+    outline: none;
+}

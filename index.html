@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin, Faculty, and Student Panels</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <!-- Main Content Section -->
+    <section class="content" id="mainContent">
+        <!-- Admin Panel -->
+        <div id="admin" class="panel">
+            <h2>Admin Panel</h2>
+            <div class="card">
+                <h3>Add Faculty</h3>
+                <button onclick="navigateTo('addFaculty')">Go</button>
+            </div>
+            <div class="card">
+                <h3>Add Student</h3>
+                <button onclick="navigateTo('addStudent')">Go</button>
+            </div>
+            <div class="card">
+                <h3>Change Password</h3>
+                <button onclick="navigateTo('changePassword')">Go</button>
+            </div>
+        </div>
+
+        <!-- Faculty Panel -->
+        <div id="faculty" class="panel">
+            <h2>Faculty Panel</h2>
+            <div class="card">
+                <h3>Add Mark List</h3>
+                <button onclick="navigateTo('addMarkList')">Go</button>
+            </div>
+            <div class="card">
+                <h3>Add Attendance</h3>
+                <button onclick="navigateTo('addAttendance')">Go</button>
+            </div>
+            <div class="card">
+                <h3>View Students</h3>
+                <button onclick="navigateTo('viewStudents')">Go</button>
+            </div>
+        </div>
+
+        <!-- Student Panel -->
+        <div id="student" class="panel">
+            <h2>Student Panel</h2>
+            <div class="card">
+                <h3>View Mark List</h3>
+                <button onclick="navigateTo('viewMarkList')">Go</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
